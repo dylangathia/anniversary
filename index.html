@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Happy Anniversary ❤️</title>
+  <link rel="stylesheet" href="style.css" />
+</head>
+<body>
+  <!-- ❤️ Heading -->
+  <h1>Happy 2nd Month Anniversary ❤️</h1>
+  <h2>You and Me Forever</h2>
+
+  <!-- 💌 Typewriter Message -->
+  <div class="typewriter" id="typewriter"></div>
+
+
+  <p style="margin-top: 20px; font-style: italic; font-size: 1rem;">
+    Click a photo to see our moments up close 📸
+  </p>
+
+  <!-- 🖼️ Image Slideshow -->
+  <div class="image-grid">
+    <a href="jackie_al.jpeg" data-caption="One of my favorite photos 💞"><img src="jackie_al.jpeg" alt="Image 1"></a>
+    <a href="us_tog.jpeg" data-caption="Our Cutest Photo Ever ❤️"><img src="us_tog.jpeg" alt="Image 2"></a>
+    <a href="us_tog4.jpeg" data-caption="Skin Care Time💃"><img src="us_tog4.jpeg" alt="Image 3"></a>
+    <a href="us_tog5.jpeg" data-caption="After Our Bowling Date💓"><img src="us_tog5.jpeg" alt="Image 4"></a>
+  </div>
+
+
+  <!-- 🕊️ Countdown Timer -->
+  <div class="timer" id="countdown"></div>
+
+  <!-- 💖 Love Notes -->
+  <div class="notes" id="love-note"></div>
+
+  <!-- 🎵 Music Toggle -->
+  <button class="music-btn" id="toggleMusic">Pause Music</button>
+  <audio id="anniversarySong" autoplay loop>
+    <source src="Bruno Major - Nothing (Lyrics) - Cakes & Eclairs.mp3" type="audio/mpeg">
+    Your browser does not support the audio element.
+  </audio>
+
+  <!-- 🎉 Confetti Canvas -->
+  <canvas id="confetti-canvas"></canvas>
+
+  <script type="module" src="script.js"></script>
+</body>
+</html>
