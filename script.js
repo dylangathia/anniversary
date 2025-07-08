@@ -43,7 +43,7 @@
     updateConfetti();
 
     // ⌨️ Typewriter
-    const typewriterText = "To my love, Jackie...\n\nEvery day with you is a blessing. 💕\nYou make my world brighter, my smile wider, and my heart fuller.\nHappy 2 months, my sweet sweet girl!\nAnd many many more to come";
+    const typewriterText = "To my love, Jackie...\n\nEvery day with you is a blessing. 💕\nYou make my world brighter, my smile wider, and my heart fuller.\nHappy 3 months, my sweet sweet girl!\nAnd many many more to come";
     const typewriterEl = document.getElementById("typewriter");
     let charIndex = 0;
     function typeWriter() {
